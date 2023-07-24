@@ -5,7 +5,7 @@ const Menu = () =>{
   const {setAppState} = useContext(DataContext)
   return(
     <div className="menu">
-      <h1>Menu Component</h1>
+      <h1>Quiz Test</h1>
       <button onClick={()=>setAppState("quiz")}>Go To Quiz</button>
     </div>
   )
